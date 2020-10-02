@@ -2,7 +2,7 @@
 
 **Work in progress** - Please get in touch 
 
-This is the second iteration of an automated deployment for running nodes and supporting infrastructure on the ICON Blockchain. 
+Second iteration of an automated deployment for running nodes and supporting infrastructure on the ICON Blockchain. 
 
 ### To Use 
 ---
@@ -86,7 +86,7 @@ Short list being:
 - Vault secrets management 
 - Improved deployment and testing patterns 
 
-Get in touch with Rob if you want to help / need a walk through of the repo. 
+
 
 ### Prerequisites
 ---
