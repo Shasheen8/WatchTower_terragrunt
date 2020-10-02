@@ -6,7 +6,7 @@ Second iteration of an automated deployment for running nodes and supporting inf
 
 ## Solution Pipeline
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Shasheen8/WatchTower/WatchTower.PNG">
+  <img width="460" height="300" src="https://github.com/Shasheen8/WatchTower_terragrunt/blob/main/WatchTower.PNG">
 </p>
 
 
