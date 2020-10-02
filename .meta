@@ -1,0 +1,8 @@
+{
+  "projects": {
+  	"packer": "https://github.com/insight-infrastructure/packer-icon-prep",
+ 	"ansible": "https://github.com/insight-infrastructure/ansible-icon-prep",
+   "ansible-fork" : "git@github.com:badra25ml/ansible-icon-prep.git"
+  }
+}
+
