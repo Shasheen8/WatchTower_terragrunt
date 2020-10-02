@@ -1,0 +1,20 @@
+---
+- hosts: all
+  become: true
+  roles:
+    # - p-rep-pack
+    # - { role: "ansible-hardening", when: (ansible_hardening | default(true) ) }
+    # - { role: "ansible-os-hardening", when: (ansible_hardening | default(true) ) }
+    # - { role: "ansible-ssh-hardening", when: (ansible_hardening | default(true) ) }
+    # - { role: "role-secure-docker-daemon", when: (ansible_hardening | default(true) ) }
+    # - install-packages
+    # - disable-ipv6
+    # - ebs-automatic-nvme-mapping
+    # - mount-volumes
+    # - setup-app-block42
+    # - keystore
+    # - start-docker
+    # - wait-for-sync
+    # - rename-db
+    # - start-docker
+    - ansible-wazuh-agent 

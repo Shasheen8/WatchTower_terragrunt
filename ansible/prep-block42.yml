@@ -1,0 +1,12 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - disable-ipv6
+    - install-packages
+    - mount-volumes
+    - setup-app-block42
+    - keystore
+    - start-docker
+    - wait-for-sync
+    - rename-db

@@ -1,0 +1,6 @@
+---
+- hosts: all
+  become: true
+  roles:
+    - disable-ipv6
+    - sentry-pack

@@ -1,0 +1,28 @@
+---
+
+- name: Stop node application via docker-compose
+  docker_compose:
+    project_src: /home/ubuntu
+    stopped: yes
+
+# On mainnet, seen this folder called "mainnet" and also loopchain based on the setting of environment variables
+# Going to rely on group_vars conditional to populate this dir name
+#- name: Get name of first dir under data/ -> depends on network
+#  shell: ls /home/{{ ansible_user }}/data/
+#  register: data_directory
+
+#- name: Get current IP
+#  shell: curl ifconfig.co
+#  register: current_ip
+#
+#- name: Move db files to new IP address
+#  command: mv db_{{ current_ip.stdout }}:7100_icon_dex db_{{ main_ip }}:7100_icon_dex
+#  become: yes
+#  args:
+#    chdir: "/home/{{ ansible_user }}/data/{{ data_directory }}/.storage"
+
+- name: Move db files to new IP address
+  command: mv db_{{ public_ip }}:7100_icon_dex db_{{ main_ip }}:7100_icon_dex
+  become: yes
+  args:
+    chdir: "/home/{{ ansible_user }}/data/{{ data_directory }}/.storage"
