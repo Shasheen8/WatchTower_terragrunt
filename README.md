@@ -4,6 +4,12 @@
 
 Second iteration of an automated deployment for running nodes and supporting infrastructure on the ICON Blockchain. 
 
+## Solution Pipeline
+<p align="center">
+  <img width="460" height="300" src="https://github.com/Shasheen8/WatchTower/WatchTower.PNG">
+</p>
+
+
 ### To Use 
 ---
 1. ##### Export AWS keys to environment variables or profile 
